@@ -1,0 +1,5 @@
+cask_args appdir: "/Applications"
+tap "caskroom/cask"
+brew "wget"
+cask "google-chrome"
+mas "Evernote", id: 406056744
