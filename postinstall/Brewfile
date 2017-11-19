@@ -40,7 +40,6 @@ tap "caskroom/cask"
 tap "caskroom/fonts"
 tap "caskroom/versions"
 tap "buo/cask-upgrade"
-tap "asio/popcorn-time"
 
 # System apps
 cask "alfred"
@@ -92,7 +91,6 @@ cask "figma"
 cask "handbrake"
 cask "kindle"
 cask "kobo"
-cask "popcorn-time"
 cask "sketch"
 cask "spotify"
 cask "simple-comic"
@@ -109,7 +107,6 @@ cask "steam"
 
 # System apps
 mas "1Password", id: 443987910
-mas "AppDelete Lite", id: 451960925
 mas "Boom 2", id: 948176063
 mas "DaisyDisk", id: 411643860
 mas "FruitJuice", id: 671736912
