@@ -54,6 +54,10 @@ cask "transmission"
 cask "tripmode"
 cask "viscosity"
 
+# NTFS (order is important)
+cask "osxfuse"
+brew "ntfs-3g"
+
 # Cloud apps
 cask "dropbox"
 cask "onedrive"
@@ -82,7 +86,7 @@ cask "scrivener"
 
 # Media apps
 cask "adobe-digital-editions"
-cask "audacity"
+#cask "audacity" # install manually
 cask "calibre"
 cask "camtasia"
 cask "figma"
@@ -92,7 +96,7 @@ cask "kobo"
 cask "popcorn-time"
 cask "sketch"
 cask "spotify"
-cask "techstoreclub-simple-comic"
+cask "simple-comic"
 cask "vlc"
 
 # Gaming
