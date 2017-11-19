@@ -1,5 +1,145 @@
+#----------------------------#
+# Lars De Richter’s Brewfile #
+#----------------------------#
+
+
+#####################
+#     Utilities     #
+#####################
+
+tap "homebrew/core"
+tap "homebrew/versions"
+
+# System utilities
+brew "coreutils"
+brew "moreutils"
+brew "findutils"
+brew "gnu-sed", args: ["with-default-names"]
+brew "bash"
+brew "bash-completion@2"
+
+# Other utilities
+brew "git"
+brew "git-lfs"
+brew "git-extras"
+
+# Nodejs
+brew "nvm"
+
+# Ruby
+brew "chruby"
+brew "ruby-install"
+
+
+##################################
+#     3rd Party Applications     #
+##################################
+
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
-brew "wget"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "buo/cask-upgrade"
+tap "asio/popcorn-time"
+
+# System apps
+cask "alfred"
+cask "caffeine"
+cask "ccleaner"
+cask "duet"
+cask "iterm2"
+cask "nordvpn"
+cask "ntfs-free"
+cask "transmission"
+cask "tripmode"
+cask "viscosity"
+
+# Cloud apps
+cask "dropbox"
+cask "onedrive"
+
+# Browsers
+cask "firefox"
+cask "firefoxdeveloperedition"
 cask "google-chrome"
+cask "google-chrome-canary"
+
+# Developer apps
+cask "atom"
+#cask "colorschemer-studio"
+cask "cyberduck"
+cask "dash"
+cask "github"
+cask "imageoptim"
+cask "mamp"
+cask "virtualbox"
+
+# Communication
+cask "skype"
+
+# Writing
+cask "scrivener"
+
+# Media apps
+cask "adobe-digital-editions"
+cask "audacity"
+cask "calibre"
+cask "camtasia"
+cask "figma"
+cask "handbrake"
+cask "kindle"
+cask "kobo"
+cask "popcorn-time"
+cask "sketch"
+cask "spotify"
+cask "techstoreclub-simple-comic"
+cask "vlc"
+
+# Gaming
+cask "gog-galaxy"
+cask "steam"
+
+
+########################
+#    Appstore apps     #
+########################
+
+# System apps
+mas "1Password", id: 443987910
+mas "AppDelete Lite", id: 451960925
+mas "Boom 2", id: 948176063
+mas "DaisyDisk", id: 411643860
+mas "FruitJuice", id: 671736912
+mas "Logitech Camera Settings", id: 638332853
+mas "Microsoft Remote Desktop", id: 715768417
+mas "The Archive Browser", id: 510232205
+mas "The Unarchiver", id: 425424353
+
+# Communication
+mas "WhatsApp", id: 1147396723
+
+# Productivity
+mas "Deckset", id: 847496013
 mas "Evernote", id: 406056744
+mas "Focus", id: 777233759
+mas "Keynote", id: 409183694
+mas "KyPass", id: 555293879
+mas "MindNode", id: 992076693
+mas "Pages", id: 409201541
+mas "Scapple", id: 568020055
+mas "Skitch", id: 425955336
+mas "Spark", id: 1176895641
+mas "Todoist", id: 585829637
+
+# Writing
+mas "Byword", id: 420212497
+mas "Day One", id: 1055511498
+mas "OmmWriter", id: 412347921
+mas "Rough Draft", id: 1021874663
+
+# Media apps
+mas "Acorn", id: 634108295
+mas "Comic Life 3", id: 688953417
+mas "iMovie", id: 408981434
+mas "Pixelmator", id: 407963104
+mas "Screenium 3", id: 921553264
