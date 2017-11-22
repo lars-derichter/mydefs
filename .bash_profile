@@ -54,7 +54,6 @@ if [ -f "$(brew --prefix)/opt/nvm/nvm.sh" ]; then
     fi
 fi
 
-
 # chruby
 if [ -f "$(brew --prefix)/opt/chruby/share/chruby/chruby.sh" ]; then
     source "$(brew --prefix)/opt/chruby/share/chruby/chruby.sh"
