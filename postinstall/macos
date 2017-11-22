@@ -42,5 +42,6 @@ if [ -f $(brew --prefix)/opt/chruby/share/chruby/chruby.sh ]; then
   ruby-install --cleanup ruby;
   source "$(brew --prefix)/opt/chruby/share/chruby/chruby.sh";
   chruby ruby;
-  #gem install bundler
+  gem install bundler;
+  bundle install;
 fi
