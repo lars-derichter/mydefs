@@ -30,13 +30,17 @@ if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
 fi;
 
 # Install and use node lts version
-export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
-nvm install --lts --latest-npm node
-nvm alias default node
+if [ -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
+  export NVM_DIR="$HOME/.nvm";
+  . "/usr/local/opt/nvm/nvm.sh";
+  nvm install --lts --latest-npm node;
+  nvm alias default node;
+fi
 
 # Install and use latest stable Ruby
-ruby-install --cleanup ruby
-source "$(brew --prefix)/opt/chruby/share/chruby/chruby.sh"
-chruby ruby
-#gem install bundler
+if [ -f $(brew --prefix)/opt/chruby/share/chruby/chruby.sh ]; then
+  ruby-install --cleanup ruby;
+  source "$(brew --prefix)/opt/chruby/share/chruby/chruby.sh";
+  chruby ruby;
+  #gem install bundler
+fi
