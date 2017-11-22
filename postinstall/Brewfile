@@ -17,6 +17,7 @@ brew "findutils"
 brew "gnu-sed", args: ["with-default-names"]
 brew "bash"
 brew "bash-completion@2"
+brew "z"
 
 # Other utilities
 brew "git"
