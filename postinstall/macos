@@ -20,8 +20,14 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install mas
 
-# Install all applications and tools in the Brewfile with brew bundle
+# Install all applications and tools from the Brewfile with brew bundle
 brew bundle
+
+# Switch to using brew-installed bash as default shell
+if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
+  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
+  chsh -s /usr/local/bin/bash;
+fi;
 
 # Install and use node lts version
 export NVM_DIR="$HOME/.nvm"
