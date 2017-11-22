@@ -1,3 +1,8 @@
+# Necessary additions to path
+if which brew &> /dev/null; then
+  export PATH="$HOME/bin:/$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH";
+fi
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
