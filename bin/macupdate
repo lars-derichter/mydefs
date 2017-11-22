@@ -20,6 +20,9 @@ brew cu --cleanup --force --yes
 mas upgrade
 
 # Nodejs
-nvm install --lts --latest-npm node
+nvm install --lts node
 nvm cache clear
+npm -g update npm
 npm -g update
+
+# Ruby
