@@ -12,6 +12,7 @@ sudo softwareupdate -i -a
 # Homebrew
 brew update
 brew upgrade --cleanup
+brew cleanup
 
 # Casks
 brew cu --cleanup --force --yes
@@ -24,6 +25,7 @@ nvm install --lts node
 nvm cache clear
 npm -g update npm
 npm -g update
+npm cache clean --force
 
 # Ruby
 ruby-install --no-reinstall --cleanup ruby
