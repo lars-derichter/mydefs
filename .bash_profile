@@ -41,6 +41,17 @@ fi;
 # You could just use `-g` instead, but I like being explicit
 complete -W "NSGlobalDomain" defaults;
 
+# nvm
+if [ -f $(brew --prefix)/opt/nvm/nvm.sh]; then
+    . $(brew --prefix)/opt/nvm/nvm.sh
+fi
+
+# chruby
+if [ -f $(brew --prefix)/opt/chruby/share/chruby/chruby.sh]; then
+    source "$(brew --prefix)/opt/chruby/share/chruby/chruby.sh"
+    source "$(brew --prefix)/opt/chruby/share/chruby/auto.sh"
+fi
+
 # z
 if [ -f $(brew --prefix)/etc/profile.d/z.sh ]; then
     . $(brew --prefix)/etc/profile.d/z.sh

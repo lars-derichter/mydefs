@@ -37,5 +37,6 @@ nvm alias default node
 
 # Install and use latest stable Ruby
 ruby-install --cleanup ruby
+source "$(brew --prefix)/opt/chruby/share/chruby/chruby.sh"
 chruby ruby
 #gem install bundler
