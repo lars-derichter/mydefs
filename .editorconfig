@@ -1,0 +1,23 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# This is the Editorconfig file you have been looking for :)
+root = true
+
+[*]
+# utf-8 everywhere
+charset = utf-8
+
+# Unix-style newlines, a newline ending every file
+end_of_line = lf
+insert_final_newline = true
+
+# standard indent: 2 spaces
+indent_style = space
+indent_size = 2
+
+# no trailing whitespace
+trim_trailing_whitespace = true
+
+# Trailing whitespace can have meaning in markdown files
+[*.md, *.markdown]
+trim_trailing_whitespace = false
