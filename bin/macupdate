@@ -26,3 +26,7 @@ npm -g update npm
 npm -g update
 
 # Ruby
+ruby-install --no-reinstall --cleanup ruby
+gem update --system --no-document --clear-sources
+gem update --no-document --clear-sources
+gem clean
