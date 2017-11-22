@@ -22,3 +22,14 @@ brew install mas
 
 # Install all applications and tools in the Brewfile with brew bundle
 brew bundle
+
+# Install and use node lts version
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
+nvm install --lts --latest-npm node
+nvm alias default node
+
+# Install and use latest stable Ruby
+ruby-install --cleanup ruby
+chruby ruby
+#gem install bundler
