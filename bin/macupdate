@@ -35,3 +35,6 @@ ruby-install --no-reinstall --cleanup ruby
 gem update --system --no-document --clear-sources
 gem update --no-document --clear-sources
 gem clean
+
+# Atom packages
+apm upgrade --compatible --confirm false
