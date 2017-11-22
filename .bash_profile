@@ -49,9 +49,6 @@ complete -W "NSGlobalDomain" defaults;
 # nvm & avn
 if [ -f "$(brew --prefix)/opt/nvm/nvm.sh" ]; then
     . "$(brew --prefix)/opt/nvm/nvm.sh";
-    if [ -s "$HOME/.avn/bin/avn.sh" ]; then
-      source "$HOME/.avn/bin/avn.sh";
-    fi
 fi
 
 # chruby
