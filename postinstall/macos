@@ -22,6 +22,7 @@ brew install mas
 
 # Install all applications and tools from the Brewfile with brew bundle
 brew bundle
+brew cleanup
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
@@ -36,6 +37,7 @@ if [ -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
   nvm install --lts --latest-npm node;
   nvm alias default node;
 fi
+npm cache clean --force
 
 # Install and use latest stable Ruby
 if [ -f $(brew --prefix)/opt/chruby/share/chruby/chruby.sh ]; then
@@ -44,4 +46,5 @@ if [ -f $(brew --prefix)/opt/chruby/share/chruby/chruby.sh ]; then
   chruby ruby;
   gem install bundler --no-document --clear-sources;
   bundle install;
+  gem clean
 fi

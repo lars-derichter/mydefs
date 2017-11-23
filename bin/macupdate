@@ -21,11 +21,12 @@ brew cu --cleanup --force --yes
 mas upgrade
 
 # Nodejs
-if [ -f "$(brew --prefix)/opt/nvm/nvm.sh" ]; then
-    . "$(brew --prefix)/opt/nvm/nvm.sh";
+if [ -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
+  export NVM_DIR="$HOME/.nvm";
+  . "/usr/local/opt/nvm/nvm.sh";
+  nvm install --lts node;
+  nvm cache clear;
 fi
-nvm install --lts node
-nvm cache clear
 npm -g update npm
 npm -g update
 npm cache clean --force
