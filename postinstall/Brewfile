@@ -69,6 +69,7 @@ cask "google-chrome-canary"
 # Productivity
 cask "alfred"
 cask "atext"
+cask "hazel"
 cask "keyboard-maestro"
 cask "rescuetime"
 
