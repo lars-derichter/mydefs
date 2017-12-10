@@ -43,8 +43,7 @@ tap "caskroom/versions"
 tap "buo/cask-upgrade"
 
 # System apps
-cask "alfred"
-cask "caffeine"
+cask "appcleaner"
 cask "ccleaner"
 cask "duet"
 cask "iterm2"
@@ -66,6 +65,12 @@ cask "firefox"
 cask "firefoxdeveloperedition"
 cask "google-chrome"
 cask "google-chrome-canary"
+
+# Productivity
+cask "alfred"
+cask "atext"
+cask "keyboard-maestro"
+cask "rescuetime"
 
 # Developer apps
 cask "atom"
@@ -108,6 +113,7 @@ cask "steam"
 
 # System apps
 mas "1Password", id: 443987910
+mas "Amphetamine", id: 937984704
 mas "Boom 2", id: 948176063
 mas "DaisyDisk", id: 411643860
 mas "FruitJuice", id: 671736912
@@ -127,6 +133,7 @@ mas "Keynote", id: 409183694
 mas "KyPass", id: 555293879
 mas "MindNode", id: 992076693
 mas "Pages", id: 409201541
+mas "PopClip", id: 445189367
 mas "Scapple", id: 568020055
 mas "Skitch", id: 425955336
 mas "Spark", id: 1176895641
@@ -137,6 +144,7 @@ mas "Byword", id: 420212497
 mas "Day One", id: 1055511498
 mas "OmmWriter", id: 412347921
 mas "Rough Draft", id: 1021874663
+mas "Quiver - take better notes", id: 866773894
 
 # Media apps
 mas "Acorn", id: 634108295
