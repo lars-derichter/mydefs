@@ -41,7 +41,7 @@ cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/fonts"
 tap "caskroom/versions"
-tap "buo/cask-upgrade"
+#tap "buo/cask-upgrade" # gives trouble
 
 # System apps
 cask "appcleaner"
