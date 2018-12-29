@@ -84,6 +84,7 @@ cask "imageoptim"
 cask "mamp"
 cask "postman"
 cask "virtualbox"
+cask "visual-studio-code"
 
 # Communication
 cask "skype"
