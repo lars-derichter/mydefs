@@ -25,6 +25,9 @@ brew "git-lfs"
 brew "git-extras"
 brew "git-flow"
 
+# Media
+brew "libdvdcss"
+
 # Nodejs
 brew "nvm"
 
@@ -40,15 +43,20 @@ brew "ruby-install"
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/fonts"
-tap "caskroom/versions"
+#tap "caskroom/versions" # deprecated
 tap "buo/cask-upgrade"
+tap "lars-derichter/mycasks"
 
 # System apps
 cask "appcleaner"
+cask "burn"
 cask "ccleaner"
 cask "cheatsheet"
 cask "dropbox"
 cask "duet"
+cask "eid-be"
+cask "eid-be-viewer"
+cask "filezilla"
 cask "iterm2"
 cask "nordvpn"
 cask "transmission"
@@ -72,6 +80,9 @@ cask "focus"
 cask "hazel"
 cask "itsycal"
 cask "keyboard-maestro"
+cask "microsoft-office"
+cask "rescuetime"
+cask "spectacle"
 cask "toggl"
 
 # Developer apps
@@ -82,12 +93,15 @@ cask "dash"
 cask "github"
 cask "imageoptim"
 cask "mamp"
+cask "parallels"
 cask "postman"
 cask "virtualbox"
 cask "visual-studio-code"
 
 # Communication
 cask "skype"
+cask "skype-for-business"
+cask "slack"
 
 # Writing
 cask "scrivener"
@@ -96,11 +110,14 @@ cask "scrivener"
 cask "adobe-digital-editions"
 #cask "audacity" # install manually
 cask "calibre"
-#cask "camtasia" # trial adds a watermark in the newest version
+cask "camtasia-3" # my own version 3 of camtasia (without watermarks)
+cask "clipgrab"
 cask "figma"
 cask "handbrake"
 cask "kindle"
 cask "kobo"
+cask "lastfm"
+cask "send-to-kindle"
 cask "sketch"
 cask "spotify"
 cask "simple-comic"
@@ -122,7 +139,7 @@ mas "Boom 2", id: 948176063
 mas "DaisyDisk", id: 411643860
 mas "FruitJuice", id: 671736912
 mas "Logitech Camera Settings", id: 638332853
-mas "Microsoft Remote Desktop", id: 715768417
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "OneDrive", id: 823766827
 mas "The Archive Browser", id: 510232205
 mas "The Unarchiver", id: 425424353
@@ -131,9 +148,9 @@ mas "The Unarchiver", id: 425424353
 mas "WhatsApp", id: 1147396723
 
 # Productivity
+mas "Bear", id: 1091189122
 mas "Deckset", id: 847496013
 mas "Evernote", id: 406056744
-#mas "Flat Tomato", id: 1286489308
 mas "Keynote", id: 409183694
 mas "KyPass", id: 555293879
 mas "MindNode", id: 992076693
@@ -143,6 +160,8 @@ mas "Scapple", id: 568020055
 mas "Skitch", id: 425955336
 mas "Spark", id: 1176895641
 mas "Todoist", id: 585829637
+mas "Trello", id: 1278508951
+mas "Type Fu", id: 509818877
 
 # Developer apps
 mas "JSON Helper for AppleScript", id: 453114608
