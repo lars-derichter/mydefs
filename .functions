@@ -25,6 +25,21 @@ function a() {
 	fi;
 }
 
+# `vc` with no arguments opens the current directory in Visual Studio Code, otherwise
+# opens the given location
+function vc() {
+	if [ $# -eq 0 ]; then
+		code .;
+	else
+		code "$@";
+	fi;
+}
+
+# `vcd` shows a diff of two files in Visual Studio Code
+function vcd() {
+	code --diff "$@";
+}
+
 # Change working directory to the top-most Finder window location
 function cdf() { # short for `cdfinder`
 	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
