@@ -8,7 +8,6 @@
 #####################
 
 tap "homebrew/core"
-tap "homebrew/versions"
 
 # System utilities
 brew "coreutils"
@@ -44,7 +43,6 @@ brew "ruby-install"
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/fonts"
-#tap "caskroom/versions" # deprecated
 tap "buo/cask-upgrade"
 tap "lars-derichter/mycasks"
 
