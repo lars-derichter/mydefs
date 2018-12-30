@@ -15,6 +15,7 @@ brew "coreutils"
 brew "moreutils"
 brew "findutils"
 brew "gnu-sed", args: ["with-default-names"]
+brew "gpg"
 brew "bash"
 brew "bash-completion@2"
 brew "z"
