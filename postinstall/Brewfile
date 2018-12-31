@@ -43,6 +43,7 @@ brew "ruby-install"
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/fonts"
+tap "homebrew/cask-versions"
 tap "buo/cask-upgrade"
 tap "lars-derichter/mycasks"
 
@@ -68,7 +69,7 @@ brew "ntfs-3g"
 
 # Browsers
 cask "firefox"
-cask "firefoxdeveloperedition"
+cask "firefox-developer-edition"
 cask "google-chrome"
 cask "google-chrome-canary"
 
