@@ -1,0 +1,12 @@
+#!/bin/sh
+
+sudo /bin/sh -c 'cat >>/private/etc/hosts <<EOM
+127.0.0.1 backend.bohemiancoding.com
+127.0.0.1 bohemiancoding.sketch.analytics.s3-website-us-east-1.amazonaws.com
+EOM'
+
+cat >>~/Library/Application\ Support/com.bohemiancoding.sketch3/.license <<EOM
+ "sign":"=="
+ "type”:”licence”
+ "expiration”:”999999999”
+EOM
