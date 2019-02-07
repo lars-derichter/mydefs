@@ -1,7 +1,0 @@
-#!/bin/sh
-
-cat >>~/Library/Application\ Support/com.bohemiancoding.sketch3/.license <<EOM
- "sign":"=="
- "type”:”licence”
- "expiration”:”999999999”
-EOM
