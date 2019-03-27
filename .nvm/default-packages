@@ -1,4 +1,5 @@
 bower
+eslint
 grunt-cli
 sass
 standard
