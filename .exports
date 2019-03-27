@@ -10,8 +10,8 @@ export HISTFILESIZE="${HISTSIZE}";
 # Omit duplicates and commands that begin with a space from history.
 export HISTCONTROL='ignoreboth';
 
-# Make atom the default editor.
-export EDITOR='atom';
+# Make vscode the default editor.
+export EDITOR='code';
 
 # Highlight section titles in manual pages.
 export LESS_TERMCAP_md="${yellow}";

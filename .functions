@@ -17,13 +17,13 @@ function o() {
 
 # `a` with no arguments opens the current directory in Atom Editor, otherwise
 # opens the given location
-function a() {
-	if [ $# -eq 0 ]; then
-		atom .;
-	else
-		atom "$@";
-	fi;
-}
+# function a() {
+# 	if [ $# -eq 0 ]; then
+# 		atom .;
+# 	else
+# 		atom "$@";
+# 	fi;
+# }
 
 # `vc` with no arguments opens the current directory in Visual Studio Code, otherwise
 # opens the given location
