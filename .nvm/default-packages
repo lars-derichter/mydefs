@@ -1,8 +1,9 @@
-bower
 eslint
 grunt-cli
+gulp-cli
 sass
 standard
 stylelint
 stylefmt
+webpack
 yo
