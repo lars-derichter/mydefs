@@ -130,13 +130,13 @@ cask "gog-galaxy"
 cask "steam"
 
 # fonts
-cask font-chelsea-market
-cask font-montserrat
-cask font-open-sans
-cask font raleway
-cask font-source-code-pro
-cask font-ubuntu
-cask font-vt323
+cask "font-chelsea-market"
+cask "font-montserrat"
+cask "font-open-sans"
+cask "font raleway"
+cask "font-source-code-pro"
+cask "font-ubuntu"
+cask "font-vt323"
 
 
 
