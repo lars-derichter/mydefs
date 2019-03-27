@@ -88,7 +88,7 @@ cask "spectacle"
 cask "toggl"
 
 # Developer apps
-cask "atom"
+#cask "atom"
 #cask "colorschemer-studio"
 cask "cyberduck"
 cask "dash"

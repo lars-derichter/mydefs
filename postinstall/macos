@@ -50,5 +50,5 @@ if [ -f $(brew --prefix)/opt/chruby/share/chruby/chruby.sh ]; then
 fi
 
 # Install atom packages from Apmfile
-apm install --packages-file Apmfile
-apm clean
+#apm install --packages-file Apmfile
+#apm clean
