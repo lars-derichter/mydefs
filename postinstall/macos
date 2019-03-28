@@ -33,11 +33,16 @@ fi;
 # Install and use node lts version
 if [ -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
   export NVM_DIR="$HOME/.nvm";
+
+  # Make sure default-packages are installed by nvm
+  if [ -f ../.nvm/default-packages ]; then
+    mkdir -p $HOME/.nvm && cp ../.nvm/default-packages $HOME/.nvm/;
+  fi;
+
   . "/usr/local/opt/nvm/nvm.sh";
   nvm install --lts --latest-npm node;
   nvm alias default node;
 fi
-npm cache clean --force
 
 # Install and use latest stable Ruby
 ruby-install ruby;
