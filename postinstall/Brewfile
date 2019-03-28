@@ -36,6 +36,12 @@ brew "nvm"
 brew "chruby"
 brew "ruby-install"
 
+# php
+brew php
+
+# Python
+brew python
+
 
 ##################################
 #     3rd Party Applications     #
