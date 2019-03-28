@@ -155,6 +155,15 @@ function phpserver() {
 	php -S "${ip}:${port}";
 }
 
+# Start a PHP server running [grav](http://getgrav.org)
+function gravserver() {
+	local port="${1:-4000}";
+	#local ip=$(ipconfig getifaddr en1);
+  local ip="127.0.0.1"
+	sleep 1 && open "http://${ip}:${port}/" &
+	php -S "${ip}:${port} system/router.php";
+}
+
 # UTF-8-encode a string of Unicode symbols
 function escape() {
 	printf "\\\x%s" $(printf "$@" | xxd -p -c1 -u);
