@@ -38,10 +38,10 @@ brew "chruby"
 brew "ruby-install"
 
 # Python
-brew python
+brew "python"
 
 # php
-brew php
+brew "php"
 
 
 ##################################
