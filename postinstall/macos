@@ -41,6 +41,7 @@ npm cache clean --force
 
 # Install and use latest stable Ruby
 ruby-install ruby;
+exec bash --login; # restart bash so that our new ruby can be found by chruby
 if [ -f $(brew --prefix)/opt/chruby/share/chruby/chruby.sh ]; then
   source "$(brew --prefix)/opt/chruby/share/chruby/chruby.sh";
   chruby ruby;
