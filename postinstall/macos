@@ -38,7 +38,7 @@ fi;
 if [ -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
   export NVM_DIR="$HOME/.nvm";
 
-  # Make sure default-packages are installed by nvm
+  # Make sure default-packages list will be found by nvm
   if [ -f ../.nvm/default-packages ]; then
     mkdir -p $HOME/.nvm && cp ../.nvm/default-packages $HOME/.nvm/;
   fi;
