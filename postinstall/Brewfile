@@ -17,6 +17,7 @@ brew "gnu-sed"
 brew "gpg"
 brew "bash"
 brew "bash-completion@2"
+brew "wget"
 brew "z"
 
 # Other utilities
