@@ -2,8 +2,8 @@
 - [DeDRM Tools](https://apprenticealf.wordpress.com/)
 - [DeDRM Github](https://github.com/apprenticeharper/DeDRM_tools)
 - eid tools
-- filezilla
+- (filezilla)
 - Getflix
 - Hemingway Editor
-- Invision Studio
-- Virtualbox
+- (Invision Studio)
+- (Virtualbox)
