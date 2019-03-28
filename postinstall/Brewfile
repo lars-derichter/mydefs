@@ -36,11 +36,11 @@ brew "nvm"
 brew "chruby"
 brew "ruby-install"
 
-# php
-brew php
-
 # Python
 brew python
+
+# php
+brew php
 
 
 ##################################
