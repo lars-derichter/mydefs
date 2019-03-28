@@ -161,7 +161,7 @@ function gravserver() {
 	#local ip=$(ipconfig getifaddr en1);
   local ip="127.0.0.1"
 	sleep 1 && open "http://${ip}:${port}/" &
-	php -S "${ip}:${port} system/router.php";
+	php -S "${ip}:${port}" system/router.php;
 }
 
 # UTF-8-encode a string of Unicode symbols
