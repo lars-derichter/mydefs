@@ -7,11 +7,11 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Make my preferred directories if they do not exist yet
-mkdir -p ~/Desktop/temp
-mkdir -p ~/Documents/Administration
-mkdir -p ~/Documents/Projects
-mkdir -p ~/Documents/Websites
-mkdir -p ~/Documents/Writing
+mkdir -p "$HOME/Desktop/temp"
+mkdir -p "$HOME/Documents/Administration"
+mkdir -p "$HOME/Documents/Projects"
+mkdir -p "$HOME/Documents/Websites"
+mkdir -p "$HOME/Documents/Writing"
 
 # Install XCode command line tools
 xcode-select --install
@@ -39,7 +39,7 @@ if [ -f $(brew --prefix)/opt/nvm/nvm.sh ]; then
     mkdir -p $HOME/.nvm && cp ../.nvm/default-packages $HOME/.nvm/;
   fi;
 
-  . "/usr/local/opt/nvm/nvm.sh";
+  . "$(brew --prefix)/opt/nvm/nvm.sh";
   nvm install --lts --latest-npm node;
   nvm alias default node;
 fi
