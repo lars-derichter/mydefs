@@ -26,6 +26,7 @@ brew "git-lfs"
 brew "git-extras"
 brew "git-flow"
 brew "libsass"
+brew "pandoc"
 
 # Media
 brew "libdvdcss"
