@@ -74,6 +74,9 @@ cask "viscosity"
 cask "osxfuse"
 brew "ntfs-3g"
 
+# Java
+cask "java"
+
 # Browsers
 cask "firefox"
 cask "firefox-developer-edition"
@@ -96,12 +99,14 @@ cask "toggl"
 #cask "colorschemer-studio"
 cask "cyberduck"
 cask "dash"
+cask "eclipse-java"
 cask "github"
 cask "imageoptim"
+cask "intellij-idea"
 cask "mamp"
 cask "parallels"
 cask "postman"
-# cask "virtualbox"
+cask "virtualbox"
 cask "visual-studio-code"
 
 # Communication
