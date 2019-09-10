@@ -7,3 +7,4 @@
 - Hemingway Editor
 - (Invision Studio)
 - (Virtualbox)
+- Beepify
