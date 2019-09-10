@@ -96,6 +96,7 @@ cask "spectacle"
 cask "toggl"
 
 # Developer apps
+cask "bluej"
 #cask "colorschemer-studio"
 cask "cyberduck"
 cask "dash"
@@ -104,8 +105,10 @@ cask "github"
 cask "imageoptim"
 cask "intellij-idea"
 cask "mamp"
+cask "mysqlworkbench"
 cask "parallels"
 cask "postman"
+cas "staruml"
 cask "virtualbox"
 cask "visual-studio-code"
 
