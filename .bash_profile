@@ -1,6 +1,6 @@
 # Necessary additions to path
 if which brew &> /dev/null; then
-  export PATH="$HOME/bin:/$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH";
+  export PATH="/$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH";
 fi
 
 # Load the shell dotfiles, and then some:
