@@ -44,6 +44,9 @@ brew "python"
 # php
 brew "php"
 
+# Java
+brew "jenv"
+
 
 ##################################
 #     3rd Party Applications     #
@@ -74,9 +77,6 @@ cask "viscosity"
 cask "osxfuse"
 brew "ntfs-3g"
 
-# Java
-cask "java"
-
 # Browsers
 cask "firefox"
 cask "firefox-developer-edition"
@@ -86,7 +86,6 @@ cask "google-chrome-canary"
 # Productivity
 cask "alfred"
 cask "atext"
-cask "focus"
 cask "hazel"
 cask "itsycal"
 cask "keyboard-maestro"
@@ -100,7 +99,6 @@ cask "bluej"
 #cask "colorschemer-studio"
 cask "cyberduck"
 cask "dash"
-cask "eclipse-java"
 cask "github"
 cask "imageoptim"
 cask "intellij-idea"
@@ -142,13 +140,11 @@ cask "gog-galaxy"
 cask "steam"
 
 # fonts
-cask "font-chelsea-market"
 cask "font-montserrat"
 cask "font-open-sans"
 cask "font-raleway"
 cask "font-source-code-pro"
 cask "font-ubuntu"
-cask "font-vt323"
 
 
 
@@ -163,7 +159,6 @@ mas "Boom 2", id: 948176063
 mas "DaisyDisk", id: 411643860
 mas "FruitJuice", id: 671736912
 mas "Logitech Camera Settings", id: 638332853
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "OneDrive", id: 823766827
 mas "The Archive Browser", id: 510232205
 mas "The Unarchiver", id: 425424353
