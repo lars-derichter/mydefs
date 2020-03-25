@@ -58,3 +58,11 @@ if [ -f $(brew --prefix)/opt/chruby/share/chruby/chruby.sh ]; then
   bundle install;
   gem clean
 fi
+
+# Install and use latest stable Python
+pyenv install 3.8.2;
+pyenv global 3.8.2;
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)";
+  eval "$(pyenv virtualenv-init -)";
+fi

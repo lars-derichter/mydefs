@@ -39,14 +39,11 @@ brew "chruby"
 brew "ruby-install"
 
 # Python
-brew "python"
+brew "pyenv"
+brew "pyenv-virtualenv"
 
 # php
 brew "php"
-
-# Java
-brew "jenv"
-
 
 ##################################
 #     3rd Party Applications     #
@@ -95,7 +92,6 @@ cask "spectacle"
 cask "toggl"
 
 # Developer apps
-cask "bluej"
 #cask "colorschemer-studio"
 cask "cyberduck"
 cask "dash"

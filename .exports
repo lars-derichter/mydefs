@@ -28,3 +28,6 @@ export NODE_REPL_HISTORY=~/.node_history;
 export NODE_REPL_HISTORY_SIZE='4096';
 # Use sloppy mode by default, matching web browsers.
 export NODE_REPL_MODE='sloppy';
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
