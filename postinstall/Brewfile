@@ -46,9 +46,8 @@ brew "pyenv-virtualenv"
 brew "php"
 
 # Java
+brew "jabba"
 brew "jenv"
-cask "java"
-cask "oracle-jdk"
 
 ##################################
 #     3rd Party Applications     #
