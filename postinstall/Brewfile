@@ -107,6 +107,7 @@ cask "virtualbox"
 cask "visual-studio-code"
 
 # Communication
+cask "microsoft-teams"
 cask "skype"
 cask "skype-for-business"
 cask "zoomus"
