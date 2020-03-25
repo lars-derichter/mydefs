@@ -63,6 +63,11 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv virtualenv-init -)";
 fi
 
+# jenv
+if command -v jenv 1>/dev/null 2>&1; then
+  eval "$(jenv init -)";
+fi
+
 # z
 if [ -f $(brew --prefix)/etc/profile.d/z.sh ]; then
     . "$(brew --prefix)/etc/profile.d/z.sh";

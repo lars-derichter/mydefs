@@ -45,6 +45,11 @@ brew "pyenv-virtualenv"
 # php
 brew "php"
 
+# Java
+brew "jenv"
+cask "java"
+cask "oracle-jdk"
+
 ##################################
 #     3rd Party Applications     #
 ##################################
@@ -52,18 +57,14 @@ brew "php"
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 tap "caskroom/fonts"
-tap "homebrew/cask-versions"
 tap "buo/cask-upgrade"
 tap "lars-derichter/mycasks"
 
 # System apps
-cask "appcleaner"
 cask "burn"
 cask "ccleaner"
 cask "cheatsheet"
 cask "dropbox"
-cask "duet"
-# cask "filezilla" Apparently some adware coming with filezilla and blocked from Homebrew
 cask "iterm2"
 cask "nordvpn"
 cask "transmission"
@@ -81,24 +82,24 @@ cask "google-chrome"
 cask "google-chrome-canary"
 
 # Productivity
+cask "1password"
 cask "alfred"
 cask "atext"
+cask "deckset"
 cask "hazel"
 cask "itsycal"
 cask "keyboard-maestro"
 cask "microsoft-office"
 cask "rescuetime"
 cask "spectacle"
-cask "toggl"
 
 # Developer apps
-#cask "colorschemer-studio"
 cask "cyberduck"
 cask "dash"
+cask "dbeaver-community"
 cask "github"
 cask "imageoptim"
 cask "intellij-idea"
-cask "mamp"
 cask "mysqlworkbench"
 cask "parallels"
 cask "postman"
@@ -109,22 +110,18 @@ cask "visual-studio-code"
 # Communication
 cask "skype"
 cask "skype-for-business"
-cask "slack"
 
 # Writing
 cask "scrivener"
 
 # Media apps
+cask "4k-video-downloader"
 cask "adobe-digital-editions"
-#cask "audacity" # install manually
 cask "calibre"
 cask "camtasia-3" # my own version 3 of camtasia (without watermarks)
-cask "clipgrab"
-cask "figma"
 cask "handbrake"
 cask "kindle"
 cask "kobo"
-cask "lastfm"
 cask "send-to-kindle"
 cask "sketch"
 cask "spotify"
@@ -142,14 +139,11 @@ cask "font-raleway"
 cask "font-source-code-pro"
 cask "font-ubuntu"
 
-
-
 ########################
 #    Appstore apps     #
 ########################
 
 # System apps
-mas "1Password", id: 443987910
 mas "Amphetamine", id: 937984704
 mas "Boom 2", id: 948176063
 mas "DaisyDisk", id: 411643860
@@ -164,15 +158,12 @@ mas "WhatsApp", id: 1147396723
 
 # Productivity
 mas "Bear", id: 1091189122
-mas "Deckset", id: 847496013
 mas "Evernote", id: 406056744
 mas "Keynote", id: 409183694
-mas "KyPass", id: 555293879
 mas "MindNode", id: 992076693
 mas "Pages", id: 409201541
 mas "PopClip", id: 445189367
-mas "Scapple", id: 568020055
-mas "Skitch", id: 425955336
+mas "SiteFetcher", id: 1398940694
 mas "Spark", id: 1176895641
 mas "Todoist", id: 585829637
 mas "Trello", id: 1278508951
@@ -184,12 +175,8 @@ mas "JSON Helper for AppleScript", id: 453114608
 # Writing
 mas "Byword", id: 420212497
 mas "Day One", id: 1055511498
-mas "OmmWriter", id: 412347921
-mas "Rough Draft", id: 1021874663
-mas "Quiver - take better notes", id: 866773894
 
 # Media apps
-mas "Acorn", id: 634108295
 mas "Comic Life 3", id: 688953417
 mas "iMovie", id: 408981434
 mas "Pixelmator", id: 407963104
