@@ -109,6 +109,7 @@ cask "visual-studio-code"
 # Communication
 cask "skype"
 cask "skype-for-business"
+cask "zoomus"
 
 # Writing
 cask "scrivener"
