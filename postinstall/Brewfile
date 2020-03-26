@@ -56,8 +56,8 @@ brew "perl-build"
 ##################################
 
 cask_args appdir: "/Applications"
-tap "caskroom/cask"
-tap "caskroom/fonts"
+tap "homebrew/cask-cask"
+tap "homebrew/cask-fonts"
 tap "buo/cask-upgrade"
 tap "lars-derichter/mycasks"
 
