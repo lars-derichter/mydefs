@@ -105,7 +105,7 @@ cask "intellij-idea"
 cask "mysqlworkbench"
 cask "parallels"
 cask "postman"
-cas "staruml"
+cask "staruml"
 cask "virtualbox"
 cask "visual-studio-code"
 
