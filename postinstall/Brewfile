@@ -57,7 +57,7 @@ brew "perl-build"
 
 cask_args appdir: "/Applications"
 #tap "homebrew/cask-cask" # not necessary apparently
-tap "cask/versions"
+tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "buo/cask-upgrade"
 tap "lars-derichter/mycasks"
