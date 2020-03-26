@@ -68,6 +68,11 @@ if command -v jenv 1>/dev/null 2>&1; then
   eval "$(jenv init -)";
 fi
 
+# phpenv
+if command -v phpenv 1>/dev/null 2>&1; then
+  eval "$(phpenv init -)"
+fi
+
 # z
 if [ -f $(brew --prefix)/etc/profile.d/z.sh ]; then
     . "$(brew --prefix)/etc/profile.d/z.sh";

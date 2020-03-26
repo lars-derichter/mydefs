@@ -31,3 +31,6 @@ export NODE_REPL_MODE='sloppy';
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
+
+# phpenv
+export PHPENV_ROOT="$HOME/.phpenv"

@@ -67,10 +67,19 @@ if command -v pyenv 1>/dev/null 2>&1; then
   pyenv global 3.8.2;
 fi
 
-# Install and use latest stable Java
+# Install and use Java 8 and 14 (default)
 if command -v jenv 1>/dev/null 2>&1; then
   eval "$(jenv init -)";
   jabba install openjdk@1.14.0;
+  jabba install adopt@1.8.0-242;
   jenv add $HOME/.jabba/jdk/openjdk\@1.14.0/Contents/Home/;
   jenv global openjdk64-14;
+fi
+
+# Install and use latest php
+curl -L https://raw.githubusercontent.com/phpenv/phpenv-installer/master/bin/phpenv-installer | bash;
+if command -v phpenv 1>/dev/null 2>&1; then
+  eval "$(phpenv init -)";
+  phpenv install 7.4.4;
+  phpenv global 7.4.4;
 fi

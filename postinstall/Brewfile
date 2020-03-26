@@ -17,6 +17,7 @@ brew "gnu-sed"
 brew "gpg"
 brew "bash"
 brew "bash-completion@2"
+brew "curl"
 brew "wget"
 brew "z"
 
@@ -41,9 +42,6 @@ brew "ruby-install"
 # Python
 brew "pyenv"
 brew "pyenv-virtualenv"
-
-# php
-brew "php"
 
 # Java
 brew "jabba"
