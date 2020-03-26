@@ -83,3 +83,10 @@ if command -v phpenv 1>/dev/null 2>&1; then
   phpenv install 7.4.4;
   phpenv global 7.4.4;
 fi
+
+# Install and use latest perl
+if command -v plenv 1>/dev/null 2>&1; then
+  eval "$(plenv init -)";
+  plenv install 5.30.2;
+  plenv global 5.30.2;
+fi

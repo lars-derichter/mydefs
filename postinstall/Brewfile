@@ -47,6 +47,10 @@ brew "pyenv-virtualenv"
 brew "jabba"
 brew "jenv"
 
+# Perl
+brew "plenv"
+brew "perl-build"
+
 ##################################
 #     3rd Party Applications     #
 ##################################

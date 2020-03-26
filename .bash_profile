@@ -70,7 +70,12 @@ fi
 
 # phpenv
 if command -v phpenv 1>/dev/null 2>&1; then
-  eval "$(phpenv init -)"
+  eval "$(phpenv init -)";
+fi
+
+# plenv
+if command -v plenv 1>/dev/null 2>&1; then
+  eval "$(plenv init -)";
 fi
 
 # z
