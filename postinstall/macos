@@ -70,6 +70,7 @@ fi
 # Install and use Java 8 and 14 (default)
 if command -v jenv 1>/dev/null 2>&1; then
   eval "$(jenv init -)";
+  jabba install openjdk@1.11.0-2;
   jabba install openjdk@1.14.0;
   jabba install adopt@1.8.0-242;
   jenv add $HOME/.jabba/jdk/openjdk\@1.14.0/Contents/Home/;
