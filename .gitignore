@@ -10,6 +10,5 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-
 # mydefs postinstall stuff
 postinstall/Gemfile.lock
